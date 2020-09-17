@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="app">
   <h1>Whatsapp mern</h1>
+  
     </div>
   );
 }
