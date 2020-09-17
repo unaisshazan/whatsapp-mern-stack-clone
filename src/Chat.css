@@ -20,3 +20,12 @@
 .chat__headerInfo > p {
     color: gray;
 }
+
+.chat__body{
+    flex: 1;
+    background-image: url();
+    background-repeat: repeat;
+    background-position: center;
+    padding: 30px;
+    overflow: scroll;
+}
