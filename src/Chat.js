@@ -7,7 +7,7 @@ function Chat() {
         <div className='chat'>
               <div className="chat__header">
                   <Avatar/>
-              </div>
+            
               <div className="chat__headerInfo">
                   <h3>Room Name</h3>
                   <p>LAST SEEN</p>
@@ -24,7 +24,7 @@ function Chat() {
  </IconButton>
               </div>
        
-        </div>
+        </div>  </div>
     )
 }
 
