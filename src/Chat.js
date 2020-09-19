@@ -2,12 +2,14 @@ import { Avatar, Icon, IconButton } from "@material-ui/core";
 import {
   AttachFile,
   InsertEmoticon,
+  MicOutlined,
   MoreVert,
   SearchOutlined,
 } from "@material-ui/icons";
 import React from "react";
 import "./Chat.css";
 function Chat() {
+  
   return (
     <div className="chat">
       <div className="chat__header">
@@ -60,10 +62,11 @@ function Chat() {
         <InsertEmoticon />
         <form>
           <input placeholder="Type a message" type="text" />
-          <button onClick={sendMessage} type="submit">
+          <button  type="submit">
             send a message
           </button>
         </form>
+        <MicOutlined />
       </div>
     </div>
   );
